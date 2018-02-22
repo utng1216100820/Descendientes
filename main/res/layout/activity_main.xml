@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.edu.utng.dloza.descendientes.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/img_calculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="audioguia"
+        android:text="@string/audio_guia"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="comentarios"
+        android:id="@+id/img_comentarios"
+        android:text="@string/comentarios"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="costoboletos"
+        android:id="@+id/img_costoboletos"
+        android:text="@string/costo_boletos"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="duracion"
+        android:id="@+id/img_duracion"
+        android:text="@string/duracion"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="galeria"
+        android:id="@+id/img_galeria"
+        android:text="@string/galeria"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lenguajes"
+        android:id="@+id/img_lenguajes"
+        android:text="@string/lenguajes"
+        />
+
+
+
+
+
+</TableLayout>

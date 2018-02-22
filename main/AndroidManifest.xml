@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mx.edu.utng.dloza.descendientes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Galeria" />
+        <activity android:name=".CostoBoletos" />
+        <activity android:name=".Lenguages" />
+        <activity android:name=".Duracion" />
+        <activity android:name=".FormularioCostos" />
+        <activity android:name=".FormularioDuracion" />
+        <activity
+            android:name=".AudioGuia"
+                  android:label="@string/app_name"
+                  android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <service
+                android:enabled="true"
+                android:name="com.package.name.BackgroundSoundService" />
+        </activity>
+        <activity android:name=".Comentarios" />
+        <activity android:name=".GridItem" />
+        <activity android:name=".ActivityDetalle"></activity>
+    </application>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+</manifest>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Descendientes</string>
+    <string name="duracion_text">Duración de Recorrido: \n25min</string>
+    <string name="cambiar_duracion">Cambiar Duracion</string>
+    <string name="costo">Costo: \nAdulto $25.00 \Niños y Estudiantes $20.00 \nAdultos 3ra Edad $15.00</string>
+    <string name="cambiar_costo">Cambiar Costos</string>
+    <string name="adulto">Adulto:</string>
+    <string name="ninos_y_estudiantes">Niños y Estudiantes:</string>
+    <string name="adultos_3era_edad">Adultos 3era Edad:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="sabados_domingos">Sábados y Domingos</string>
+    <string name="duracion">Duración:</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="titulo_actividad_detalle">Actividad De Detalle</string>
+
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+    <string name="audio_guia">Audio Guia</string>
+    <string name="comentarios">Comentarios</string>
+    <string name="costo_boletos">Costo Boletos</string>
+    <string name="galeria">Galeria</string>
+    <string name="lenguajes">Lenguajes</string>
+</resources>
